@@ -47,6 +47,10 @@ def print_help():
     print("Actions:")
     print("  -h, --help\t\tShow this help message and exit.")
     print("  -v, --version\t\tShow version and exit.")
+    print()
+    print("Config:")
+    print("  Configuration is done in \"pyunite.json\"")
+    print("  See info on configuring on https://github.com/riley0122/pyunite/releases/latest")
 
 def print_version():
     version = importlib.metadata.version('pyUnite')
