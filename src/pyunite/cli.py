@@ -50,7 +50,7 @@ def print_help():
     print()
     print("Config:")
     print("  Configuration is done in \"pyunite.json\"")
-    print("  See info on configuring on https://github.com/riley0122/pyunite/releases/latest")
+    print("  See info on configuring on https://github.com/riley0122/pyUnite/blob/main/docs/configuring.md")
 
 def print_version():
     version = importlib.metadata.version('pyUnite')
