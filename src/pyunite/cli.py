@@ -46,7 +46,7 @@ def print_help():
     print()
     print("Actions:")
     print("  -h, --help\t\tShow this help message and exit.")
-    print("  -v, --version\tShow version and exit.")
+    print("  -v, --version\t\tShow version and exit.")
 
 def print_version():
     version = importlib.metadata.version('pyUnite')
