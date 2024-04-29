@@ -55,6 +55,9 @@ Here's an example of how a `pyunite.json` could realistically look:
     "outputFile": "pyunite.py",
     "files": [
         "./src/pyunite/"
+    ],
+    "exclude": [
+        "./src/pyunite/__main__.py"
     ]
 }
 ```
